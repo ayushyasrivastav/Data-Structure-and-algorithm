@@ -1,0 +1,12 @@
+=> Bubble sort is algorithm which comapres the adjecent elements and swap the elements if they are not in intended order.
+     Order can be ascending or descnding
+
+=> ALGO:
+
+Step 1: Repeat Step 2 For i = 0 to N-1
+Step 2: Repeat For J = i + 1 to N - I
+Step 3: IF A[J] > A[i]
+SWAP A[J] and A[i]
+[END OF INNER LOOP]
+[END OF OUTER LOOP
+Step 4: EXIT

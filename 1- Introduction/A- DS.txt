@@ -1,0 +1,26 @@
+=> Data Structe is a way of storing and organizing data in memory efficiently.
+
+=> It is a way of managing, retriving, inserting, deleting data efficiently
+
+=> mainly 2 types of data Structure
+    => Primitive data structure
+    => Non Primitive data structure
+        => Linear data structure e.g. Arrays, Linked list, Stacks, and Queues
+        => Non-linear data structure :: When one element is connected to the 'n' number of elements eg, TREE, GRAPHS
+
+=> Data structures can also be classified as:
+    => Static data structure: It is a type of data structure where the size is allocated at the compile time. Therefore, the maximum size is fixed.
+    => Dynamic data structure: It is a type of data structure where the size is allocated at the run time. Therefore, the maximum size is flexible.
+
+=> Major Operations
+The major or the common operations that can be performed on the data structures are:
+    => Searching: We can search for any element in a data structure.
+    => Sorting: We can sort the elements of a data structure either in an ascending or descending order.
+    => Insertion: We can also insert the new element in a data structure.
+    => Updation: We can also update the element, i.e., we can replace the element with another element.
+    => Deletion: We can also perform the delete operation to remove the element from the data structure.
+
+=> Advantages of Data structures
+    => Efficiency
+    => Reusability
+    => Abstraction
