@@ -1,0 +1,12 @@
+=> Algorith is setp of rules which is defined to solve any perticular problem
+
+=> Characterstics of Algorithm
+    => feasible
+    => finite-ness
+    => clear
+    => Un-ambigious
+    => Well defined inputs
+    => well defined outputs
+    => language independent
+
+input ----> set of rules to obtain the expected output from gived input ----> output

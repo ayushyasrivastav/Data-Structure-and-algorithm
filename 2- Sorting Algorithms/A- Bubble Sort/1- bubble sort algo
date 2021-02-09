@@ -10,3 +10,13 @@ SWAP A[J] and A[i]
 [END OF INNER LOOP]
 [END OF OUTER LOOP
 Step 4: EXIT
+
+
+=>Time Complexity:
+     => Worst case complexity: O(n^2) {simply observing there are 2 loops}
+     => Best case complexity: O(n)
+     => Average case complexity: O(n^2)
+
+=> Space Complexity:
+     => for bubble sort O(1) {using one varible for swapping}
+     => for optimized bubble sort O(2) {using two varibles one for swapping and another for breaking the loop}

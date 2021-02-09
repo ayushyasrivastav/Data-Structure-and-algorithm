@@ -10,11 +10,3 @@
 => STEP 7: swap the min index with index i
 => STEP 8: end of iteration loop
 => STEP 9: return value to the user
-
-=>Time Complexity:
-     => Worst case complexity: O(n^2) {simply observing there are 2 loops}
-     => Best case complexity: O(n^2)
-     => Average case complexity: O(n^2)
-
-=> Space Complexity:
-     => for bubble sort O(1) {using one varible for swapping}
