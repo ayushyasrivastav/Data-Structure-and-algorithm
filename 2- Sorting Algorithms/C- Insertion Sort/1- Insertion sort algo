@@ -1,12 +1,24 @@
 =>In selection sort, we select the minimun value and swap it with the minimum index of unsorted array
 
 
-=> STEP 1: input the array from user
-=> STEP 2: start a loop from 0 to N-1 (i)
-=> STEP 3: setting the lowest index as min
-=> STEP 4: start the nested loop {j}
-=> STEP 5: array[min] > array[j]  min = j
-=> STEP 6: end of nested loop
-=> STEP 7: swap the min index with index i
-=> STEP 8: end of iteration loop
-=> STEP 9: return value to the user
+=> STEP 1: Input the array
+=> STEP 2: asume that the 1st element of the array is sorted
+=> STEP 3: start the iteration loop from i=1 to n
+=> STEP 4: take the arr[i] element as key
+=> STEP 5: j = i -1
+=> STEP 6: while key < arr[j] and j >= 0
+=> STEP 7: move element arr[j] to the right by 1
+=> STEP 8: decrese j by 1
+=> STEP 9: End of while loop
+=> STEP 10: insert the key at position j+1
+=> STEP 11: End of iteration loop
+=> STEP 12: return the sorted array
+
+
+=>Time Complexity:
+     => Worst case complexity: O(n^2) {simply observing there are 2 loops}
+     => Best case complexity: O(n)
+     => Average case complexity: O(n^2)
+
+=> Space Complexity:
+     => for bubble sort O(1) {using one varible for key store}

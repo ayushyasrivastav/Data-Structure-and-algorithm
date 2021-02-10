@@ -1,21 +1,38 @@
-function selectionSort(Array) {
-    // write your code in JavaScript (Node.js 8.9.4)
-    for(let i = 0; i<(Array.length-1); i++){
-      let minValue_index = i
-      for(let j = (i+1); j<Array.length; j++){
-        if(Array[minValue_index] > Array[j]){
-          minValue_index = j
-        }
-      }
-      console.log(minValue_index, Array[minValue_index], Array[i])
-      let temp = Array[minValue_index]
-      Array[minValue_index] = Array[i]
-      Array[i] = temp
+function insertionSort(arr) {
+  // write your code in JavaScript (Node.js 8.9.4)
+  for (let i = 1; i < arr.length; i++) {
+    let key = arr[i];
+    let j = i - 1;
+    //while (key < arr[j] && j >= 0) {
+    for (j; j >= 0 && key < arr[j]; j--) {
+      arr[j + 1] = arr[j];
     }
-  
-    return Array;
+    arr[j + 1] = key;
   }
-  
-  var d = [9,5,3,2,1,77,66];
-  console.log(selectionSort(d));
-  
+  return arr;
+}
+//         0  1  2  3  4  5
+var arr = [9, 1, 7, 4, 3, 5];
+
+document.write(insertionSort(arr));
+
+console.log(insertionSort(arr));
+//Second way to do it
+// function insertionSort(arr) {
+//   for (let i = 1; i < arr.length; i++) {
+//     let key = arr[i];
+//     let j = i - 1;
+//     while (key < arr[j] && j >= 0) {
+//       arr[j + 1] = arr[j];
+//       j = j - 1;
+//     }
+//     arr[j + 1] = key;
+//   }
+//   return arr;
+// }
+
+// var arr = [9, 5];
+
+// document.write(insertionSort(arr));
+
+// console.log(insertionSort(arr));
